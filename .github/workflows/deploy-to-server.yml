@@ -11,15 +11,6 @@ jobs:
     environment: Production
 
     steps:
-    - name: Print Secrets
-      run: |
-        echo "DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}"
-        echo "DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}"
-        echo "SERVER_HOST: ${{ secrets.SERVER_HOST }}"
-        echo "SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}"
-        echo "SERVER_KEY: ${{ secrets.SERVER_KEY }}"
-        echo "SSH_PORT: ${{ secrets.SSH_PORT }}"
-        
     - name: Checkout Repository
       uses: actions/checkout@v4
 
