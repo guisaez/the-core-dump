@@ -2,8 +2,8 @@ version: '3.9'
 
 services:
   nextwebsite:
-    container_name: nextwebsite
-    image: planjavaservices/nextwebsite
+    container_name: planjavaservices
+    image: guillesaez15/planjavaservices
     build: .
     ports: 
       - "3000:3000"
