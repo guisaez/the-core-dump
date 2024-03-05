@@ -9,6 +9,7 @@ jobs:
   deploy: 
     runs-on: ubuntu-latest
 
+    steps:
     - name: Print Secrets
       run: |
         echo "DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}"
@@ -17,8 +18,7 @@ jobs:
         echo "SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}"
         echo "SERVER_KEY: ${{ secrets.SERVER_KEY }}"
         echo "SSH_PORT: ${{ secrets.SSH_PORT }}"
-
-    steps:
+        
     - name: Checkout Repository
       uses: actions/checkout@v4
 
