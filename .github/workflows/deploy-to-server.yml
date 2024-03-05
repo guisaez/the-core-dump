@@ -27,7 +27,7 @@ jobs:
 
     - name: SSH into Server and Deploy
       run: |
-          echo ${{secrets.SERVER_KEY }} > ssh_key.pub
+          echo "${{ secrets.SERVER_KEY }}" > ssh_key.pub
           chmod 600 ssh_key.pub
           ssh -i ssh_key.pub -p ${{ secrets.SSH_PORT }} ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }} << 'EOF'
             cd /media/server/WareHouse/docker-containers
