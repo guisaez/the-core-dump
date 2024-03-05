@@ -32,8 +32,8 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SERVER_KEY }}
         port: ${{ secrets.SSH_PORT }}
-        source: "./docker-compose.yml"
-        target: "/media/server/WareHouse/docker-containers/planjavaservices/docker-compose.yml"
+        source: "./docker-compose.yaml"
+        target: "/media/server/WareHouse/docker-containers/planjavaservices/"
 
     - name: SSH into Server and Deploy
       uses: appleboy/ssh-action@master
