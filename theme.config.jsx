@@ -1,6 +1,8 @@
 export default {
     logo: <span>Core Dump</span>,
-    // Note - See dynamic Tags
+    project: {
+        link: 'https://github.com/guisaez/the-core-dump'
+    },
     head: (
         <>
             <meta name="viewport" content="width-device-width, initial-scale=1.0" />

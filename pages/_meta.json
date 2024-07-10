@@ -1,3 +1,15 @@
 {
-    "index": "Home"
+    "index": {
+        "title": "Home",
+        "theme": {
+            "breadcrumb": true,
+            "sidebar": true,
+            "toc": false,
+            "typesetting": "article",
+            "footer": false
+        }
+    },
+    "gorestfulapiclient": {
+        "title": "Go Client for RESTful API"
+    }
 }
