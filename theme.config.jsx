@@ -1,8 +1,17 @@
 export default {
     logo: <span>Core Dump</span>,
     project: {
-        link: 'https://github.com/guisaez/the-core-dump'
+        link: 'https://github.com/guisaez/the-core-dump',
     },
+    feedback:{
+        content: null
+    },
+    editLink: {
+        component: null
+    },
+    footer: {
+        component: null
+    }, 
     head: (
         <>
             <meta name="viewport" content="width-device-width, initial-scale=1.0" />

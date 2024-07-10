@@ -11,5 +11,8 @@
     },
     "gorestfulapiclient": {
         "title": "Go Client for RESTful API"
+    },
+    "studynotes": {
+        "title": "Study Notes"
     }
 }
