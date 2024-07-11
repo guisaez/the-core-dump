@@ -1,18 +1,14 @@
 {
     "index": {
-        "title": "Home",
-        "theme": {
-            "breadcrumb": true,
-            "sidebar": true,
-            "toc": false,
-            "typesetting": "article",
-            "footer": false
-        }
+        "title": "Home"
     },
     "gorestfulapiclient": {
         "title": "Go Client for RESTful API"
     },
     "studynotes": {
         "title": "Study Notes"
+    },
+    "resources": {
+        "title": "Resources"
     }
 }
