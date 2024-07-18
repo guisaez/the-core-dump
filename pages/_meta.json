@@ -10,5 +10,8 @@
     },
     "resources": {
         "title": "Resources"
+    },
+    "leetcode": {
+        "title": "Leetcode Solutions / Analysis"
     }
 }
